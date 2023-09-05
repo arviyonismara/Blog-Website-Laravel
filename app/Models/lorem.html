@@ -1,0 +1,16 @@
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et tenetur corrupti, doloribus quibusdam, ea sunt accusamus amet voluptatum delectus laudantium dolor impedit hic, facere velit illum magnam totam beatae qui eveniet accusantium aliquid quia similique!<p></p>Voluptatibus dolore qui debitis fugit, molestias voluptates temporibus tempora!Ut atque nobis nemo et in recusandae omnis dignissimos quis deleniti. Commodi,sapiente in ad quibusdam asperiores natus id alias illo officiis sint fugiataspernatur aperiam nobis consectetur, fuga necessitatibus. Consequatur aliquamrepudiandae doloremque provident fugiat, nemo quibusdam dignissimos quod,corrupti sapiente dolorum excepturi laborum recusandae vel? Commodi veniam enimdolor alias, fugiat quas repellendus assumenda?</p>
+
+
+<!-- untuk menggunakan metode creae dibawah harus membuat fillable/id di file Post -->
+App\Models\Post::create([
+    'title' => 'Judul ke ketiga',
+    'category_id' => 3,
+    'slug' => 'judul-ketiga',
+    'excerpt' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et tenetur corrupti,',
+    'body' => '<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et tenetur corrupti, doloribus quibusdam, ea sunt accusamus amet voluptatum delectus laudantium dolor impedit hic, facere velit illum magnam totam beatae qui eveniet accusantium aliquid quia similique!<p></p>Voluptatibus dolore qui debitis fugit, molestias voluptates temporibus tempora!Ut atque nobis nemo et in recusandae omnis dignissimos quis deleniti. Commodi,sapiente in ad quibusdam asperiores natus id alias illo officiis sint fugiataspernatur aperiam nobis consectetur, fuga necessitatibus. Consequatur aliquamrepudiandae doloremque provident fugiat, nemo quibusdam dignissimos quod,corrupti sapiente dolorum excepturi laborum recusandae vel? Commodi veniam enimdolor alias, fugiat quas repellendus assumenda?</p>'
+])
+
+App\Models\Category::create([
+    'name' => 'Personal',
+    'slug' => 'personal'
+])

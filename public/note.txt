@@ -1,0 +1,3 @@
+Folder public merupakan folder dimana kita akan menyimpan file css/js/image kita
+
+karena nantinya file dalam views akan otomatis terhubung dengan folder public
