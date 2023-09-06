@@ -7,7 +7,7 @@
         <div class="col-lg-8">
             <h1 class="mb-3">{{ $post->title }}</h1>
             
-            <button href="/dashboard/posts" class="btn btn-success"><i class="bi bi-arrow-left"></i> Back to my Posts</button>
+            <button href="/dashboard/posts" class="btn btn-success"><i class="bi bi-arrow-left"></i>Back to my Posts</button>
             
             <a href="/dashboard/posts/{{ $post->slug }}/edit" class="btn btn-warning"><i class="bi bi-pencil-square"></i>Edit</a>
             
