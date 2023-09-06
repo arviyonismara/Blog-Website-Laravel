@@ -21,11 +21,12 @@ class DatabaseSeeder extends Seeder
 
         // jika ingin buat ulang migrate fresh, ketik php artisan migrate:fresh --seed
 
-        // User::create([
-        //     'name' => 'test User',
-        //     'email' => 'test@example.com',
-        //     'password' => bcrypt('12345')
-        // ]);
+        User::create([
+            'name' => 'Arvie Yonismara',
+            'username' => 'arviyonismara',
+            'email' => 'arviyonismara@gmail.com',
+            'password' => bcrypt('12345')
+        ]);
 
         // User::create([
         //     'name' => 'Arvie',
